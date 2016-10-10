@@ -1,0 +1,129 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/nomeusuario"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:textColor="#8f8400"
+        android:layout_x="100px"
+        android:layout_y="100px"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/primeironome"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:textColor="#8f8400"
+        android:layout_x="100px"
+        android:layout_y="130px"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/nomedomeio"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:textColor="#8f8400"
+        android:layout_x="100px"
+        android:layout_y="160px"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/ultimonome"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:textColor="#8f8400"
+        android:layout_x="100px"
+        android:layout_y="190px"
+        />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:layout_x="120dp"
+        android:layout_y="216dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="incial"
+        android:id="@+id/idusuario"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:textColor="#ff8400"
+        android:layout_x="100dp"
+        android:layout_y="189dp" />
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_x="208dp"
+        android:layout_y="1dp" />
+
+    <com.facebook.login.widget.ProfilePictureView
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/profilePicture"
+        android:layout_x="126dp"
+        android:layout_y="39dp" />
+
+    <!--Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Foto"
+        android:onClick=".LoginFragment.sharePhotoToFacebook" /-->
+
+    <Button
+        android:id="@+id/post_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/post_image"
+        android:layout_x="2dp"
+        android:layout_y="306dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText1"/>
+
+    <Button
+        android:id="@+id/update_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/update_status"
+        android:layout_x="-4dp"
+        android:layout_y="358dp" />
+
+    <Button
+        android:id="@+id/galeriaAcesso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/acessaGaleria"
+        android:layout_x="48dp"
+        android:layout_y="415dp" />
+
+</AbsoluteLayout>
